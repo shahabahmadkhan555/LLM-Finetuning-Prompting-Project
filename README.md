@@ -49,7 +49,7 @@ The machine specs, all the hyperparameters along with the supervised fine-tuning
 
 The resulting output (ground truth, whole response, and prediction) files can be found inside corresponding task directories [[review](/Review/), [refinement](/Refinement/)]. 
 
-![prompts](/Fine-tuning/Finetune_Prompt.jpeg)
+![prompts](/Fine-Tuning/Finetune_Prompt.jpeg)
 
 ### Step 3: Evaluation and Metrics
 
