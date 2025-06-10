@@ -45,7 +45,7 @@ For this part, we modify all the datasets to be (alpaca-style) **instruction-fol
 
 We adopt a parameter-efficient fine-tuning (PEFT) method (low-rank adaptation approach) with 4-bit quantization (QLoRA) to fit the weights and updates into a 16GB VRAM local machine. To fine-tune the Llama 3 8B model, we use the [unsloth](https://github.com/unslothai/unsloth) framework, which offers faster training and inference speed for the latest open-source LLMs. 
 
-The machine specs, all the hyperparameters along with the supervised fine-tuning process using huggingface trainer and wandb logger ecosystem can be found in this fine-tuning [notebook](/Fine-tuning/llama-3-train-test.ipynb). Take a closer look at this file to understand the training and inference details. 
+The machine specs, all the hyperparameters along with the supervised fine-tuning process using huggingface trainer and wandb logger ecosystem can be found in this fine-tuning [notebook](/Fine-Tuning/llama-3-train-test.ipynb). Take a closer look at this file to understand the training and inference details. 
 
 The resulting output (ground truth, whole response, and prediction) files can be found inside corresponding task directories [[review](/Review/), [refinement](/Refinement/)]. 
 
